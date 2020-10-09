@@ -345,7 +345,7 @@ class Wizard extends Component {
     const { classes } = this.props;
     const { cardArr, icons } = this.state;
     const transitionDuration = 800;
-
+    const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
     const currentPath = this.props.location.pathname;
     return (
       <React.Fragment>

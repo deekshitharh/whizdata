@@ -212,6 +212,7 @@ class Contacts extends Component {
       })
 
       .catch((error) => {
+       
         this.setState({
           open: true,
           requestFailed: "Oops error occured.Please try after sometime!!!!!!",
